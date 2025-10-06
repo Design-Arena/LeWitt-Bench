@@ -127,3 +127,25 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Generated image directories
+*_202*/
+20231015_eval/
+openai_*/
+google_imagen_*/
+flux_*/
+recraft_*/
+ideogram_*/
+qwen_*/
+fal_*/
+
+# Original/reference images
+images/
+og/
+
+# Generated CSV results
+*generation_progress*.csv
+*generation_results*.csv
+
+# macOS
+.DS_Store

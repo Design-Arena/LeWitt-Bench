@@ -1,0 +1,26 @@
+{
+  "name": "lewitt-bench",
+  "version": "1.0.0",
+  "description": "LeWitt Bench - Image generation benchmark based on Sol LeWitt's wall drawings",
+  "type": "module",
+  "scripts": {
+    "generate": "node scripts/generate_images.js",
+    "generate:recraft": "node scripts/generate_images.js recraft",
+    "generate:test": "node scripts/generate_images.js recraft --ids=11,16,17"
+  },
+  "keywords": [
+    "lewitt",
+    "art",
+    "ai",
+    "image-generation",
+    "benchmark"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "dotenv": "^16.4.5",
+    "node-fetch": "^3.3.2"
+  }
+}
+

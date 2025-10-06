@@ -1,0 +1,20 @@
+# Core dependencies
+pandas>=2.0.0
+python-dotenv>=1.0.0
+
+# API clients
+openai>=1.0.0
+anthropic>=0.18.0
+google-generativeai>=0.3.0
+google-cloud-aiplatform>=1.38.0
+
+# Additional image handling and utilities
+requests>=2.31.0
+pillow>=10.0.0
+jupyter>=1.0.0
+ipykernel>=6.25.0
+
+# Optional: for downloading and saving images
+urllib3>=2.0.0
+aiohttp>=3.9.0
+
